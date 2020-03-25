@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="style.css">
+	<title>Contact</title>
+</head>
+
+<body>
+	<!-- Le nav -->
+	<header>
+		<a href="index.html"><img src="images/logo.jpg" alt="Logo"></a>
+		<nav>
+			<a href="index.html">Accueil</a>
+			<a href="articles.html">Articles</a>
+			<a href="synthese.html">Synthèse</a>
+			<a href="contact.html" class="border-right">Contact</a>
+		</nav>
+	</header>
+
+	<main>
+
+		<section id="contact">
+
+			<h1>Contact</h1>
+			<hr>
+			<!-- Une div pour chaque profil -->
+			<div class="fiche">
+				<div class="profil">
+					<img src="images/icon-etudiant.png" alt="Icon étudiant">
+					<h2>Nicolas TORRES</h2>
+					<ul>
+						<li>06.00.00.00.00</li>
+						<li>ntorressannie@iut.univ-paris8.fr</li>
+						<li>DUT Informatique</li>
+						<li>TPA1</li>
+						<li>20 ans</li>
+					</ul>
+				</div>
+				<!-- La présentation plus détaillé du contact (de l'étudiant) -->
+				<div class="presentation">
+					<h3>Présentation</h3>
+					<p>Étudiant en DUT Informatique passionné par les nouvelles technologies, aimant apprendre de nouvelles connaissances.</p>
+				</div>
+			</div>
+
+			<div class="fiche">
+				<div class="profil">
+					<img src="images/icon-etudiant.png" alt="Icon étudiant">
+					<h2>Arthur ZHU</h2>
+					<ul>
+						<li>06.11.11.11.11</li>
+						<li>azhu@iut.univ-paris8.fr</li>
+						<li>DUT Informatique</li>
+						<li>TPA1</li>
+						<li>18 ans</li>
+					</ul>
+				</div>
+				<!-- La présentation plus détaillé du contact (de l'étudiant) -->
+				<div class="presentation">
+					<h3>Présentation</h3>
+					<p>Étudiant en DUT Informatique passionné par les nouvelles technologies, aimant apprendre de nouvelles connaissances.</p>
+				</div>
+			</div>
+			
+			<div class="fiche">
+				<div class="profil">
+					<img src="images/icon-etudiant.png" alt="Icon étudiant">
+					<h2>Didier ZOBA CASI</h2>
+					<ul>
+						<li>06.22.22.22.22</li>
+						<li>djzobacasi@iut.univ-paris8.fr</li>
+						<li>DUT Informatique</li>
+						<li>TPA1</li>
+						<li>18 ans</li>
+					</ul>
+				</div>
+				<!-- La présentation plus détaillé du contact (de l'étudiant) -->
+				<div class="presentation">
+					<h3>Présentation</h3>
+					<p>Étudiant en DUT Informatique passionné par les nouvelles technologies, aimant apprendre de nouvelles connaissances.</p>
+				</div>
+			</div>
+			
+			<div class="fiche">
+				<div class="profil">
+					<img src="images/icon-etudiant.png" alt="Icon étudiant">
+					<h2>Simon ZOU</h2>
+					<ul>
+						<li>06.33.33.33.33</li>
+						<li>szou@iut.univ-paris8.fr</li>
+						<li>DUT Informatique</li>
+						<li>TPA1</li>
+						<li>18 ans</li>
+					</ul>
+				</div>
+				<!-- La présentation plus détaillé du contact (de l'étudiant) -->
+				<div class="presentation">
+					<h3>Présentation</h3>
+					<p>Étudiant en DUT Informatique passionné par les nouvelles technologies, aimant apprendre de nouvelles connaissances.</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- La partie localisation contenant une carte et les informations de l'IUT -->
+		<section id="localisation">
+			<!-- La carte -->
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.778318669011!2d2.461986115555148!3d48.86243747928793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e612ae6a4cd20d%3A0xfe5502b116430be!2sIUT%20De%20Montreuil!5e0!3m2!1sfr!2sfr!4v1577985246268!5m2!1sfr!2sfr" id="carte" width="770" height="450" allowfullscreen=""></iframe>
+			<!-- Les informations de l'IUT -->
+			<div id="information">
+				<h2>IUT Montreuil</h2>
+				<p>Adresse : 140 Rue de la Nouvelle France,<br>93100 Montreuil</p>
+				<p>Téléphone : 01 48 70 37 00</p>
+				<p>Site : <a href="https://www.iut.univ-paris8.fr/" class="">https://www.iut.univ-paris8.fr/</a></p>
+			</div>
+		</section>
+
+		<!-- La partie pour nous contacter contenant un formulaire -->
+		<section id="contacteznous">
+
+			<h1>Contactez-nous</h1>
+			<hr>
+
+			<!-- Le formulaire -->
+			<form>
+				<input type="text" placeholder="Nom" />
+				<input id="adressemail" type="email" placeholder="Adresse mail" />
+				<input type="tel" placeholder="Téléphone" />
+				<textarea placeholder="Message" rows="10" cols="90"></textarea>
+				<input id="envoyer" type="submit" value="Envoyer" />
+			</form>
+		</section>
+	</main>
+
+	<!-- Le footer contenant le nav du site pour faciliter la navigation et des informations officielles du site -->
+	<footer>
+		<!-- Le nav -->
+		<nav>
+			<a href="index.html">Accueil</a>
+			<a href="articles.html">Articles</a>
+			<a href="synthese.html">Synthèse</a>
+			<a href="contact.html" class="border-right">Contact</a>
+		</nav>
+		<hr>
+		<!-- Les informations officielles -->
+		<p>Projet tutoré TPA1 - IUT Montreuil</p>
+	</footer>
+
+</body>
+</html>

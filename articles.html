@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="style.css">
+	<title>Articles</title>
+</head>
+
+<body>
+	<!-- Le nav -->
+	<header>
+		<a href="index.html"><img src="images/logo.jpg" alt="Logo"></a>
+		<nav>
+			<a href="index.html">Accueil</a>
+			<a href="articles.html">Articles</a>
+			<a href="synthese.html">Synthèse</a>
+			<a href="contact.html" class="border-right">Contact</a>
+		</nav>
+	</header>
+
+	<main id="les-articles">
+
+		<h1>Les articles</h1>
+		<hr>
+
+		<!-- Une div pour chaque article -->
+		<div class="article" data-url="nicolas.html">
+			<img src="images/nicolas.jpg" alt="Couverture Nicolas">
+			<div class="description">
+				<p><b>Problématique : </b>La monnaie virtuelle représente-elle un danger pour les investisseurs et les ménages ?</p>
+				<p><b>Auteur : </b>Nicolas TORRES</p>
+				<p><b>Date : </b>21/12/19</p>
+				<p><b>Mots clés : </b>cryptomonnaie, blockchain, monnaie virtuelle,...</p>
+			</div>
+		</div>
+
+		<div class="article" data-url="arthur.html">
+			<img src="images/arthur.jpg" alt="Couverture Arthur">
+			<div class="description">
+				<p><b>Problématique : </b>Faut-il craindre ou aspirer à la création de nouvelles cryptomonnaies ?</p>
+				<p><b>Auteur : </b>Arthur ZHU</p>
+				<p><b>Date : </b>21/12/19</p>
+				<p><b>Mots clés : </b>cryptomonnaie, Chine, Libra,...</p>
+			</div>
+		</div>
+
+		<div class="article" data-url="didier.html">
+			<img src="images/didier.jpg" alt="Couverture Didier">
+			<div class="description" id="bottom">
+				<p><b>Problématique : </b>Dans quelle mesure la monnaie virtuelle, plus précisément la cryptomonnaie,<br />représente-elle l’évolution d’une économie plus numérique ?</p>
+				<p><b>Auteur : </b>Didier ZOBA CASI</p>
+				<p><b>Date : </b>21/12/19</p>
+				<p><b>Mots clés : </b>cryptomonnaie, monnaies numériques, monnaies virtuelles,...</p>
+			</div>
+		</div>
+
+		<div class="article" data-url="simon.html">
+			<img src="images/simon.jpg" alt="Couverture Simon">
+			<div class="description">
+				<p><b>Problématique : </b>La monnaie virtuelle représente-elle un danger pour les investisseurs et les ménages ?</p>
+				<p><b>Auteur : </b>Simon ZOU</p>
+				<p><b>Date : </b>21/12/19</p>
+				<p><b>Mots clés : </b>cryptomonnaie, Libra, Facebook,...</p>
+			</div>
+		</div>
+	</main>
+
+	<!-- Le footer contenant le nav du site pour faciliter la navigation et des informations officielles du site -->
+	<footer>
+		<!-- Le nav -->
+		<nav>
+			<a href="index.html">Accueil</a>
+			<a href="articles.html">Articles</a>
+			<a href="synthese.html">Synthèse</a>
+			<a href="contact.html" class="border-right">Contact</a>
+		</nav>
+		<hr>
+		<!-- Les informations officielles -->
+		<p>Projet tutoré TPA1 - IUT Montreuil</p>
+	</footer>
+
+	<script src="main.js"></script>
+	
+</body>
+</html>

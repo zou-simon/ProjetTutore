@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="style.css">
+	<title>Articles - Simon</title>
+</head>
+
+<body>
+	<!-- Le nav -->
+	<header>
+		<a href="index.html"><img src="images/logo.jpg" alt="Logo"></a>
+		<nav>
+			<a href="index.html">Accueil</a>
+			<a href="articles.html">Articles</a>
+			<a href="synthese.html">Synthèse</a>
+			<a href="contact.html" class="border-right">Contact</a>
+		</nav>
+	</header>
+
+	<main>
+		<!-- L'article de Simon -->
+		<article id="article">
+
+			<h1><b>Problématique</b> : Quelles sont les mesures que prennent les Etats contre les défis et risques de la cryptomonnaie ?</h1>
+
+			<!-- Les informations de l'article (auteur et date) -->
+			<div id="info-article">
+				<p id="auteur">Auteur : Simon ZOU</p>
+				<p id="date">Date : 21/12/19<p>
+				</div>
+
+				<!-- Le texte principal de l'article -->
+				<div>
+					<p>D’après BFMTV, “les cryptomonnaies sont des monnaies numériques, sécurisées et à priori décentralisées. Leurs cours ne dépendent en théorie d'aucune banque ni d'aucun gouvernement.” Chaque cryptomonnaie suit des règles différentes, citons le bitcoin, sa valeur augmente en fonction de l’offre et la demande.
+					<br><br>
+					Mark Zuckerberg, PDG de Facebook, a pour projet une cryptomonnaie se nommant Libra. Le 23 octobre, le PDG a essayé de défendre son projet devant la commission parlementaire des services financiers au congrès à Washington, mais avait du mal à la défendre, ce qui inquiète les États.</p>
+					<!-- L'image de l'article entre le texte -->
+					<img src="images/simon.jpg" alt="Image article de Simon">
+					<p>Un autre opposant au projet est l’UE, selon le Figaro, le ministre de l’économie et des finances françaises Bruno Le Maire a déclaré qu’ils ne veulent pas que “les géants du numérique étendent de plus en plus leur influence à des nouveaux champs.
+					<br>
+					Nous ne voyons pas ce qui légitime l'entrée des géants du numérique dans un champ de compétence qui est celui des États”.
+					<br><br>
+					Une autre cryptomonnaie sera lancée, le "crypto-yuans" par la Chine, elle ne sera pas décentralisée contrairement aux autre cryptomonnaies, son but est de remplacer l’argent liquide par la monnaie numérique, elle sera “contrôlée” par la banque centrale de Chine qui veut conserver “un équilibre entre “l’anonymat contrôlable” et la lutte contre le blanchiment d’argent, le financement d’activités criminelles” selon Cryptonaute.
+					<br><br>
+					Mais le plus gros problème de la cryptomonnaie est le piratage, des américains ont été victimes de vol de cryptomonnaie par SIM-swap (il s’agit de détourner un numéro de téléphone pour usurper l’identité du propriétaire), ou encore l’entreprise BitPoint Japan qui a perdu 29 millions d’euros de cryptomonnaies, selon BFMTV “ le régulateur japonais des services financiers avait décidé d'imposer un contrôle plus grand sur les opérations d'échanges de cryptomonnaies” en 2014 suite à un grand piratage mais qui n’a pas fonctionné.</p>
+				</div>
+			</article>
+
+			<div class="suivant" data-url="nicolas.html">
+				<h2>Article suivant</h2>
+				<p>La monnaie virtuelle représente-elle un danger pour les investisseurs et les ménages ?</p>
+			</div>
+
+			<!-- Rediriger vers les articles pour faciliter et prolonger la navigation -->
+			<aside id="sim-aside-bottom">
+				<h1 id="margin-top">Nicolas</h1>
+				<p>La monnaie virtuelle représente-elle un danger pour les investisseurs et les ménages ?</p>
+				<a href="nicolas.html">Voir la page</a>
+
+				<h1>Arthur</h1>
+				<p>Faut-il craindre ou aspirer à la création de nouvelles cryptomonnaies ?</p>
+				<a href="arthur.html">Voir la page</a>
+
+				<h1>Didier</h1>
+				<p>Dans quelle mesure la monnaie virtuelle, plus précisément la cryptomonnaie, représente-elle l’évolution d’une économie plus numérique ?</p>
+				<a href="didier.html">Voir la page</a>
+
+				<h1>Simon</h1>
+				<p>Quelles sont les mesures que prennent les Etats contre les défis et risques de la cryptomonnaie ?</p>
+				<a id="margin-bottom" href="simon.html">Voir la page</a>
+			</aside>
+			
+			<!-- Les mots clés de l'article -->
+			<aside id="motscles">
+				<h1>Mots-clés :</h1>
+				<p>cryptomonnaie, Libra, Facebook, Mark Zuckerberg, Congrès américain, vol cryptomonnaies, SIM-Swap, piratage cryptomonnaies, risque cryptomonnaie, Crypto-yuan, cryptomonnaie, chinoise</p>
+			</aside>
+
+			<!-- Rediriger vers le contact de l'auteur -->
+			<aside class="profil" id="profil-aside" data-url="contact.html">
+				<img src="images/icon-etudiant.png" alt="Icon étudiant">
+				<h2>Simon ZOU</h2>
+				<ul>
+					<li>06.33.33.33.33</li>
+					<li>szou@iut.univ-paris8.fr</li>
+					<li>DUT Informatique</li>
+					<li>TPA1</li>
+					<li>18 ans</li>
+				</ul>
+			</aside>
+		</main>
+
+		<!-- Le footer contenant le nav du site pour faciliter la navigation et des informations officielles du site -->
+		<footer>
+			<!-- Le nav -->
+			<nav>
+				<a href="index.html">Accueil</a>
+				<a href="articles.html">Articles</a>
+				<a href="synthese.html">Synthèse</a>
+				<a href="contact.html" class="border-right">Contact</a>
+			</nav>
+			<hr>
+			<!-- Les informations officielles -->
+			<p>Projet tutoré TPA1 - IUT Montreuil</p>
+		</footer>
+
+		<script src="main.js"></script>
+
+	</body>
+	</html>
