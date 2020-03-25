@@ -1,0 +1,377 @@
+/* CSS Général */
+html {
+    width: 100%;
+}
+body {
+    width: 1903px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, .87);
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background-color: white;
+    height: 100%;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+/* En tête */
+header {
+    background: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, .1);
+    height: 120px;
+}
+/* Logo */
+header img {
+    width: 80px;
+    margin: 20px 20px 20px 60px;
+    position: absolute;
+}
+/* Navigation */
+header nav {
+    width: 800px;
+    margin-top: 50px;
+    position: absolute;
+    margin-left: 950px;
+}
+header nav a {
+    color: #9F9F9F;
+    padding: 10px 60px;
+    border-right: 1px black solid;
+    font-size: 18px;
+}
+nav a:hover {
+    color: black;
+}
+.border-right {
+    border-right: 0px;
+}
+/* Article */
+article {
+    width: 1060px;
+    margin-left: 200px;
+    margin-top: 50px;
+    font-size: 18px;
+    display: inline-block;
+    background-color: #F8F9FA;
+    padding: 30px;
+    border-radius: 10px;
+}
+article h1 {
+    font-size: 40px;
+    margin: 0px;
+}
+article h2 {
+    font-size: 30px;
+} 
+article p {
+    margin: 30px 0px;
+    width: 1060px;
+    font-size: 22px;
+}
+article img {
+    width: 1060px;
+    height: 704.183px;
+    border-radius: 10px;
+}
+article p {
+    text-align: justify;
+}
+/* Liens color et hover */
+article a, aside a, #information a {
+    color: blue;
+}
+article a:hover, aside a:hover, #information a:hover {
+    opacity: 0.5;
+}
+/* --- */
+
+/* index.html */
+#contact-accueil {
+    width: 1903px;;
+    margin-top: 50px;
+    text-align: center;
+}
+/* Contact */
+.profil {
+    display: inline-block;
+    width: 310px;
+    padding: 20px;
+    margin: 0px 20px; 
+    background-color: #F8F9FA;
+    border-radius: 10px;
+}
+#contact-accueil h1 {
+    font-size: 45px;
+}
+#contact-accueil hr {
+    width: 50%;
+    margin-bottom: 50px;
+}
+#contact-accueil .profil:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+.profil img {
+    width: 60px;
+}
+.profil h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+.profil ul {
+    font-size: 19px;
+    list-style: none;
+    padding: 0;
+}
+/* --- */
+
+/* articles.html */
+#les-articles h1, #contact h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+#les-articles hr, #contact hr {
+    width: 50%;
+}
+.article {
+    width: 70%;
+    height: 225px;
+    margin: 50px auto;
+    border-radius: 10px;
+    padding: 20px;
+    cursor: pointer;
+    background-color: #F8F9FA;
+}
+.article:hover {
+    opacity: 0.5;
+}
+.article img {
+    width: 300px;
+    height: 180px;
+    margin-top: 22px;
+    margin-left: 50px;
+    display: inline-block;
+    border-radius: 10px;
+}
+.description {
+    display: inline-block;
+    position: relative;
+    bottom: 15px;
+    left: 70px;
+}
+.description p {
+    font-size: 18px;
+}
+#bottom {
+    bottom: 0px;
+}
+/* --- */
+
+/* synthese.html */
+#synthese-aside {
+    bottom: 1635px;
+}
+.center {
+    text-align: center;
+}
+/* --- */
+
+/* contact.html */
+.fiche {
+    width: 770px;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 120px;
+    background-color: #F8F9FA;
+    border-radius: 10px;
+}
+#contact .profil {
+    text-align: center;
+    display: inline-block;
+}
+.presentation {
+    width: 346px;
+    display: inline-block;
+    position: relative;
+    bottom: 65px;
+}
+#carte {
+    border: none;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 50px 120px;
+}
+#localisation {
+    height: 550px;
+}
+#information {
+    display: inline-block;
+    position: relative;
+    bottom: 175px;
+    left: 180px;
+    text-align: center;
+    padding: 30px;
+    background-color: #F8F9FA;
+    border-radius: 10px;
+}
+#information h2 {
+    font-size: 26px;
+}
+#information p {
+    font-size: 18px;
+}
+#contacteznous {
+    text-align: center;
+    background-color: #F8F9FA;
+    border-radius: 10px;
+    padding: 50px;
+}
+#contacteznous h1 {
+    font-size: 45px;
+}
+#contacteznous hr {
+    width: 50%;
+    margin-bottom: 50px;
+}
+#contacteznous form {
+    width: 800px;
+    margin-left: 500px;
+}
+#contactzenous input {
+    width: 160px;
+}
+#contacteznous input, #contacteznous textarea {
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-bottom: 25px;
+    padding: 5px;
+}
+#contacteznous textarea {
+    width: 750px;
+}
+#adressemail {
+    margin: 0px 100px;
+}
+#envoyer {
+    border: none;
+    width: 110px;
+    height: 30px;
+    cursor: pointer;
+}
+/* --- */
+
+/* nicolas.html , arthur.html, didier.html, simon.html */
+#article h1 {
+    line-height: 1;
+    font-weight: inherit;
+}
+#auteur, #date {
+    display: inline-block;
+    width: auto;
+}
+#date {
+    float: right;
+}
+#nico-aside-bottom {
+    bottom: 767px;
+}
+#arth-aside-bottom {
+    bottom: 928px;
+}
+#didi-aside-bottom {
+    bottom: 958px;
+}
+#sim-aside-bottom {
+    bottom: 943px;
+}
+#motscles, #profil-aside {
+    width: 300px;
+    display: inherit;
+    position: absolute;
+    margin-top: 50px;
+}
+#motscles {
+    height: 300px;
+    top: 1153px;
+    left: 1320px;
+}
+#profil-aside {
+    height: 307px;
+    top: 1545px;
+    left: 1475px;
+}
+#profil-aside:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+.suivant {
+    width: 400px;
+    margin-left: 855px;
+    margin-top: 50px;
+    font-size: 18px;
+    background-color: #F8F9FA;
+    padding: 10px 30px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.suivant:hover {
+    opacity: 0.5;
+}
+.suivant h2 {
+    font-size: 25px;
+    margin: 0px;
+} 
+.suivant p {
+    margin: 0px;
+    font-size: 22px;
+}
+/* --- */
+
+/* Aside et footer */
+aside {
+    width: 300px;
+    height: 943px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px 15px 20px 15px;
+    margin-left: 180px;
+    display: inline-block;
+    position: absolute;
+    top: 170px;
+    left: 1320px;
+    background-color: #F8F9FA;
+}
+aside h1 {
+    font-size: 26px;
+}
+aside #margin-top {
+    margin-top: 20px;
+}
+aside #margin-bottom {
+    margin-bottom: 0px;
+}
+aside p, aside a {
+    font-size: 18px;
+}
+footer {
+    width: 1903px;
+    margin: 100px 0px 50px 0px;
+    text-align: center;
+}
+footer nav a {
+    color: #9F9F9F;
+    border-right: 1px black solid;
+    padding: 0 30px;
+}
+footer p {
+    font-size: 17px;
+    font-family: sans-serif;
+}
+footer hr {
+    width: 200px;
+    margin-top: 20px;
+}
+/* --- */
